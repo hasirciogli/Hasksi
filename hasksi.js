@@ -66,7 +66,7 @@ class Headers {
     }
 }
 
-export const Hasksi = async (url, options) => {
+const Hasksi = async (url, options) => {
     var proxy = options?.proxy ?? null;
 
     typeof options?.data == URLSearchParams ? options.data = options.data.toString() : options.data = options.data;
@@ -99,3 +99,5 @@ export const Hasksi = async (url, options) => {
         });
     });
 }
+
+module.exports = Hasksi;
