@@ -1,0 +1,13 @@
+{
+  "name": "hasksi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hasksi.js",
+  "types": "hasksi.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hasirciogli",
+  "license": "MIT"
+}
