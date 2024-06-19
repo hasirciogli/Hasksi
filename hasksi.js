@@ -100,4 +100,4 @@ const Hasksi = async (url, options) => {
     });
 }
 
-module.exports = Hasksi;
+module.exports = { Hasksi, Headers };
