@@ -1,18 +1,33 @@
 {
   "name": "hasksi",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "",
-  "type": "commonjs",
-  "main": "hasksi.js",
-  "types": "hasksi.d.ts",
+  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "haski",
+    "haskijs",
+    "haski.js",
+    "haski-js",
+    "hasirciogli",
+    "hasircioglu",
+    "mustafa hasırcıoğlu",
+    "mustafa hasircioglu"
+  ],
   "author": "hasirciogli",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^22.0.0",
     "cheerio": "^1.0.0-rc.12",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "tsc": "^2.0.4",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.12"
   }
 }
